@@ -19,3 +19,6 @@ On Ubuntu you can go to Settings > Keyboard > View and Customize Shortcuts > Cus
 From there you add a name to your shortcut and then something like "python3 /path/to/the/pythn/script.py" into the command section. For example for someone named Rasputin it might be "python3 /home/rasputin/Desktop/PythonFiles/clip/clip.py".
 
 Then insert which shortcut key combination you want to use. I use "shift + cmd(windows key) + s" because that is what Windows uses for its native clipping tool.
+
+# Saved Screenshots
+If you have a normal folder structure for linux I think it should properly put the screenshots into the Pictures/Screenshots folder, but I haven't added any fancy OS path system because I don't know how at the moment. You might have to tinker with the ```screenshot.save(f'Pictures/Screenshots/screenshot_{timestamp}.png')``` command to save the pictures properly.
